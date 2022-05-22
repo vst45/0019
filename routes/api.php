@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\OrderController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/order', [OrderController::class, 'order'])
+->middleware('auth.api')
+;
+
+Route::get('/product', [OrderController::class, 'product'])
+->middleware('auth.api')
+;
+
+Route::get('/list', [OrderController::class, 'list'])
+->middleware('auth.api')
+;
+
