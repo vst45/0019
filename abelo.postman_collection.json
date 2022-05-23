@@ -7,6 +7,342 @@
 	},
 	"item": [
 		{
+			"name": "allparamsOrder",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "abcd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://abelo-test.loc/api/order?order_id=12&date_to=2022-05-21&date_from=2022-05-19&amount_from=4&amount_to=30910&product=ка&stock=чер&delivery_date_from=2021-04-30&delivery_date_to=2023-04-30&sort[]=order_id&direction[order_id]=desc\n&sort[]=date&direction[date]=desc\n&sort[]=amount&direction[amount]=desc&sort[]=stock&direction[stock]=desc&sort[]=delivery_date&direction[delivery_date]=desc&sort[]=product&direction[product]=desc",
+					"protocol": "http",
+					"host": [
+						"abelo-test",
+						"loc"
+					],
+					"path": [
+						"api",
+						"order"
+					],
+					"query": [
+						{
+							"key": "order_id",
+							"value": "12"
+						},
+						{
+							"key": "date_to",
+							"value": "2022-05-21"
+						},
+						{
+							"key": "date_from",
+							"value": "2022-05-19"
+						},
+						{
+							"key": "amount_from",
+							"value": "4"
+						},
+						{
+							"key": "amount_to",
+							"value": "30910"
+						},
+						{
+							"key": "product",
+							"value": "ка"
+						},
+						{
+							"key": "stock",
+							"value": "чер"
+						},
+						{
+							"key": "delivery_date_from",
+							"value": "2021-04-30"
+						},
+						{
+							"key": "delivery_date_to",
+							"value": "2023-04-30"
+						},
+						{
+							"key": "sort[]",
+							"value": "order_id"
+						},
+						{
+							"key": "direction[order_id]",
+							"value": "desc\n"
+						},
+						{
+							"key": "sort[]",
+							"value": "date"
+						},
+						{
+							"key": "direction[date]",
+							"value": "desc\n"
+						},
+						{
+							"key": "sort[]",
+							"value": "amount"
+						},
+						{
+							"key": "direction[amount]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "stock"
+						},
+						{
+							"key": "direction[stock]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "delivery_date"
+						},
+						{
+							"key": "direction[delivery_date]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "product"
+						},
+						{
+							"key": "direction[product]",
+							"value": "desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allparamsProduct",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "abcd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://abelo-test.loc/api/product?order_id=12&date_to=2022-05-21&date_from=2022-05-19&amount_from=4&amount_to=30910&product=ка&stock=чер&delivery_date_from=2021-04-30&delivery_date_to=2023-04-30&sort[]=order_id&direction[order_id]=desc\n&sort[]=date&direction[date]=desc\n&sort[]=amount&direction[amount]=desc&sort[]=stock&direction[stock]=desc&sort[]=delivery_date&direction[delivery_date]=desc&sort[]=product&direction[product]=desc",
+					"protocol": "http",
+					"host": [
+						"abelo-test",
+						"loc"
+					],
+					"path": [
+						"api",
+						"product"
+					],
+					"query": [
+						{
+							"key": "order_id",
+							"value": "12"
+						},
+						{
+							"key": "date_to",
+							"value": "2022-05-21"
+						},
+						{
+							"key": "date_from",
+							"value": "2022-05-19"
+						},
+						{
+							"key": "amount_from",
+							"value": "4"
+						},
+						{
+							"key": "amount_to",
+							"value": "30910"
+						},
+						{
+							"key": "product",
+							"value": "ка"
+						},
+						{
+							"key": "stock",
+							"value": "чер"
+						},
+						{
+							"key": "delivery_date_from",
+							"value": "2021-04-30"
+						},
+						{
+							"key": "delivery_date_to",
+							"value": "2023-04-30"
+						},
+						{
+							"key": "sort[]",
+							"value": "order_id"
+						},
+						{
+							"key": "direction[order_id]",
+							"value": "desc\n"
+						},
+						{
+							"key": "sort[]",
+							"value": "date"
+						},
+						{
+							"key": "direction[date]",
+							"value": "desc\n"
+						},
+						{
+							"key": "sort[]",
+							"value": "amount"
+						},
+						{
+							"key": "direction[amount]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "stock"
+						},
+						{
+							"key": "direction[stock]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "delivery_date"
+						},
+						{
+							"key": "direction[delivery_date]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "product"
+						},
+						{
+							"key": "direction[product]",
+							"value": "desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allparamsList",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "abcd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://abelo-test.loc/api/list?order_id=12&date_to=2022-05-21&date_from=2022-05-19&amount_from=4&amount_to=30910&product=ка&stock=чер&delivery_date_from=2021-04-30&delivery_date_to=2023-04-30&sort[]=order_id&direction[order_id]=desc\n&sort[]=date&direction[date]=desc\n&sort[]=amount&direction[amount]=desc&sort[]=stock&direction[stock]=desc&sort[]=delivery_date&direction[delivery_date]=desc&sort[]=product&direction[product]=desc",
+					"protocol": "http",
+					"host": [
+						"abelo-test",
+						"loc"
+					],
+					"path": [
+						"api",
+						"list"
+					],
+					"query": [
+						{
+							"key": "order_id",
+							"value": "12"
+						},
+						{
+							"key": "date_to",
+							"value": "2022-05-21"
+						},
+						{
+							"key": "date_from",
+							"value": "2022-05-19"
+						},
+						{
+							"key": "amount_from",
+							"value": "4"
+						},
+						{
+							"key": "amount_to",
+							"value": "30910"
+						},
+						{
+							"key": "product",
+							"value": "ка"
+						},
+						{
+							"key": "stock",
+							"value": "чер"
+						},
+						{
+							"key": "delivery_date_from",
+							"value": "2021-04-30"
+						},
+						{
+							"key": "delivery_date_to",
+							"value": "2023-04-30"
+						},
+						{
+							"key": "sort[]",
+							"value": "order_id"
+						},
+						{
+							"key": "direction[order_id]",
+							"value": "desc\n"
+						},
+						{
+							"key": "sort[]",
+							"value": "date"
+						},
+						{
+							"key": "direction[date]",
+							"value": "desc\n"
+						},
+						{
+							"key": "sort[]",
+							"value": "amount"
+						},
+						{
+							"key": "direction[amount]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "stock"
+						},
+						{
+							"key": "direction[stock]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "delivery_date"
+						},
+						{
+							"key": "direction[delivery_date]",
+							"value": "desc"
+						},
+						{
+							"key": "sort[]",
+							"value": "product"
+						},
+						{
+							"key": "direction[product]",
+							"value": "desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "http://abelo-test.loc/api/order?date_to=2022-04-30&date_from=2022-04-30&product=%D0%9A%D0%B0&stock=%D0%A7%D0%B5%D1%80%D0%BD%D1%96&amount_from=4&amount_to=20910&sort[]=stock&direction[stock]=desc\n",
 			"request": {
 				"method": "GET",
